@@ -34,7 +34,7 @@ Run the following command on terminal to execute the code.
     -o   Output file
     -n   Neuron configuration file
     -s   Synapse configuration file (ssets.isf)
-    -t   simulation time in milliseconds
+    -t   simulation time in milliseconds (set to 15000 for 15 second simulations)
 
 ```
 Please read `doc/FILES` file for details about the input and output files and their formats.
