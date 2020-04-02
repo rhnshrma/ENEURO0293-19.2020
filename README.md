@@ -24,6 +24,8 @@ use flag `-Ofast` to speed up simulation (no inaccuracies noticed)
 Execute
 =======
 
+Run the python script `gen_nsets_Ca_N.py` to generate the different neuron configuration files
+
 Run the following command on terminal to execute the code.
 ```
   insilico.out -o <output_file>.csv -n <neuron_file.isf> -s <synapse_file.isf> -t <time>
@@ -31,7 +33,7 @@ Run the following command on terminal to execute the code.
   Options:
     -o   Output file
     -n   Neuron configuration file
-    -s   Synapse configuration file (optional)
+    -s   Synapse configuration file (ssets.isf)
     -t   simulation time in milliseconds
 
 ```
